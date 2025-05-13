@@ -19,7 +19,7 @@ import { getFirestore } from "firebase/firestore";
 // };
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6p7oeqBSbQLtetlSvg7CIEKEIMINPixQ",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "prepwise-6c6be.firebaseapp.com",
   projectId: "prepwise-6c6be",
   storageBucket: "prepwise-6c6be.firebasestorage.app",
