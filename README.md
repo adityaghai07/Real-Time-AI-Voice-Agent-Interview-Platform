@@ -88,7 +88,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone
+git clone https://github.com/adrianhajdin/ai_mock_interviews.git
 cd ai_mock_interviews
 ```
 
@@ -672,10 +672,42 @@ system:
 
 </details>
 
+<details>
+<summary><code>Dummy Interviews:</code></summary>
+
+```javascript
+export const dummyInterviews: Interview[] = [
+  {
+    id: "1",
+    userId: "user1",
+    role: "Frontend Developer",
+    type: "Technical",
+    techstack: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    level: "Junior",
+    questions: ["What is React?"],
+    finalized: false,
+    createdAt: "2024-03-15T10:00:00Z",
+  },
+  {
+    id: "2",
+    userId: "user1",
+    role: "Full Stack Developer",
+    type: "Mixed",
+    techstack: ["Node.js", "Express", "MongoDB", "React"],
+    level: "Senior",
+    questions: ["What is Node.js?"],
+    finalized: false,
+    createdAt: "2024-03-14T15:30:00Z",
+  },
+];
+```
+
+</details>
+
 
 ## <a name="links">🔗 Assets</a>
 
-Public assets used in the project can be found [here](https://drive.google.com/file/d/1nW_4KcVWxM_CWJKTCQf2Wprtmz2WlyFW/view?usp=sharing)
+Public assets used in the project can be found [here](https://drive.google.com/drive/folders/1DuQ9bHH3D3ZAN_CFKfBgsaB8DEhEdnog?usp=sharing)
 
 ## <a name="more">🚀 More</a>
 
